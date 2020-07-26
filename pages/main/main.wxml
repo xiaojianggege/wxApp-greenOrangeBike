@@ -70,29 +70,51 @@
 </view>
 
 <!-- 活动中心 -->
+
 <view class="activityCenter">
-  <view class="activityCenter-header">
-    <view class="activityCenter-header__title">
-        活动中心
-    </view>
-    <view class="btn-viewAll">
-      查看全部
-      <image src="../../image/右箭头 (4).png"/> 
-    </view>
-  </view>
-  <!-- <block wx:for="{{items}}"> -->
-  <view class="activityCenter-main">
-    <view class="activityCenter-main__Text">
-      <view class="activityCenter-main__title">
-        来领！30元红包跟着昊然，去追风
+    <view class="activityCenter-header">
+      <view class="activityCenter-header__title">
+          活动中心
       </view>
-      <view class="activityCenter-btn">
-        点击领取>
+      <view class="btn-viewAll">
+        查看全部
+        <image src="../../image/右箭头 (4).png"/> 
       </view>
     </view>
-    <view class="sidePic">
-      <image src="" />
-    </view>
+    <block wx:for="{{activityList}}" wx:key="index">
+      <view class="activityCenter-main">
+        <view class="activityCenter-main__Text">
+          <view  class="activityCenter-main__title"><text>{{item.title1}}</text></view>
+          <view  class="activityCenter-main__title"><text>{{item.title2}}</text></view>
+          <view class="activityCenter-btn">
+            {{item.btn}}
+          </view>
+        </view>
+        <view class="activityCenter-side">
+          <view class="activityCenter-side__pic">
+            <image src="{{item.image}}" />
+          </view>
+        </view>
+      </view>
+    </block>
+</view>
+
+<!-- 留白 -->
+<view class="white-space">
+</view>
+
+<view class="footer-bar">
+  <view class="bar bar-left">
+    <navigator class="footer-btn bar-mine" url="">我的</navigator> 
+    <navigator class="footer-btn bar-findCar"  url="">找车</navigator>
+  </view> 
+  <view class="bar bar-right">
+    <navigator class="footer-btn bar-parkingArea" url="">停车区</navigator> 
+    <navigator class="footer-btn bar-more"  url="">更多</navigator>
   </view>
-  <!-- </block> -->
+</view>
+<view class="footer-bar__code">
+ <view class="code-box">
+  <image src="../../image/扫二维码.png" />
+ </view>
 </view>
