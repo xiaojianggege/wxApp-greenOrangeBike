@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  },
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "我的钱包",
+  "navigationBarTextStyle":"black"
+}

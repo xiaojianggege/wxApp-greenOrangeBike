@@ -1,0 +1,8 @@
+<view class="main">
+	<scroll-view scroll-y="{{true}}" style="width:100%">
+		<view class="ThisTimeGrade">
+			<image src="./images/Grade.jpg" />
+		</view>
+	</scroll-view>
+</view>
+

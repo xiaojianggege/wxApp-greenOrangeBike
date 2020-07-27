@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "topNav": "../../components/topNav/topNav"
-  },
-  "navigationStyle": "custom"
-}
