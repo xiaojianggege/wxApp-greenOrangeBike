@@ -102,7 +102,7 @@
 <!-- 留白 -->
 <view class="white-space">
 </view>
-
+  
 <view class="footer-bar">
   <view class="bar bar-left">
     <navigator class="footer-btn bar-mine" url="">我的</navigator> 
