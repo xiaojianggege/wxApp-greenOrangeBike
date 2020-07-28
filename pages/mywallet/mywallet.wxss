@@ -1,0 +1,64 @@
+.main{
+    background-color: #EAEDED;
+}
+.title{
+    display: flex;
+    overflow: hidden;
+}
+.RideCard{
+    margin: 20rpx 0 20rpx 0;
+}
+.box1{
+    width: 170rpx;
+    height: 60rpx;
+    background-color:#f1f1f1 ;
+    border-radius: 70rpx;
+    position: absolute;
+    top: 330rpx;
+    right: 190rpx;
+    border: 1px solid #EE7C4F;  
+    text-align: center;
+
+}
+.box1 text{
+    font-size: 30rpx;
+    color: #EE7C4F;
+    letter-spacing: 5rpx;
+    line-height: 60rpx;
+}
+.box2{
+    width: 170rpx;
+    height: 60rpx;
+    background-color:#f1f1f1;
+    border-radius: 70rpx;
+    position: absolute;
+    top: 680rpx;
+    right: 190rpx;
+    border: 1px solid #EE7C4F;
+    text-align: center;
+}
+.box2 text{
+    font-size: 30rpx;
+    color: #EE7C4F;
+    letter-spacing: 5rpx;
+    line-height: 60rpx;
+}
+.danche{
+    width: 100%;
+    height: 350rpx;
+}
+.danche image{
+    width: 100%;
+    height: 100%;
+}
+.diandanche{
+    width: 100%;
+    height: 370rpx;
+}
+.diandanche image{
+    width: 100%;
+    height: 100%;
+}
+.Setting{
+    margin: 0 0 80rpx 0;
+}

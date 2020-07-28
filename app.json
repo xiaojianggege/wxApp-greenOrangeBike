@@ -1,18 +1,28 @@
 {
-  "pages": [
-     "pages/main/main",
-    "components/topNav/topNav" ,
-    "pages/lookingForCar/lookingForCar"
+  "pages":[
+    "pages/mine/mine",
+    "pages/mywallet/mywallet",
+    "pages/BuyCard/BuyCard",
+    "pages/lookingForCar/lookingForCar",
+    "pages/Grade/Grade",
+    "pages/RideCard/RideCard",
+    "pages/HistoricalJourney/HistoricalJourney",
+    "pages/PriceRule/PriceRule",
+    "pages/CustomerService/CustomerService",
+    "pages/AboutThis/AboutThis",
+    "pages/RideMoney/RideMoney",
+    "pages/ChangeCode/ChangeCode",
+    "pages/PaymentSet/PaymentSet"
+
     
     
-   
   ],
-  "window": {
-    "backgroundTextStyle": "light",
+  "window":{
+    "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

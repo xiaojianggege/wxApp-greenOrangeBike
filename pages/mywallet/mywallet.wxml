@@ -1,0 +1,57 @@
+<view class="main">
+	<scroll-view scroll-y="{{true}}" style="width:100%">
+		<view class="RideCard">
+			<van-cell
+			 title-style="color:black"
+			 title="我的骑行卡"
+			 is-link
+			 value="查看全部"
+			 link-type="navigateTo"
+			 url="/pages/RideCard/RideCard"
+			/>
+		</view>
+		<van-dialog id="van-dialog" />
+		<div class="box1" bindtap="Gotolive">
+			<text class="Go">去激活</text>
+		</div>
+		<div class="box2" bindtap="Gotolive">
+			<text>去激活</text>
+		</div>
+		<view class="body">
+			<view class="danche">
+				<image src="./images/danche.jpg" />
+			</view>
+		</view>
+		<view class="Nextbody">
+			<view class="diandanche">
+				<image src="./images/diandanche.jpg" />
+			</view>
+		</view>
+		<view class="Setting">
+			<van-cell title="优惠券" value="可使用0张" />
+			<van-cell
+			 title="青桔骑行金"
+			 is-link
+			 value="余额0元"
+			 link-type="navigateTo"
+			 url="/pages/RideMoney/RideMoney"
+			/>
+			<van-cell
+			 title="兑换码"
+			 is-link
+			 value="兑换骑行优惠"
+			 link-type="navigateTo"
+			 url="/pages/ChangeCode/ChangeCode"
+			/>
+			<van-cell
+			 title="免密支付设置"
+			 is-link
+			 value="免密支付已授权"
+			 link-type="navigateTo"
+			 url="/pages/PaymentSet/PaymentSet"
+			/>
+		</view>
+
+	</scroll-view>
+</view>
+
