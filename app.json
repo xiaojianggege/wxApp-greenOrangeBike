@@ -1,8 +1,9 @@
 {
   "pages":[
+    "pages/main/main",
+    "pages/BuyCard/BuyCard",
     "pages/mine/mine",
     "pages/mywallet/mywallet",
-    "pages/BuyCard/BuyCard",
     "pages/lookingForCar/lookingForCar",
     "pages/Grade/Grade",
     "pages/RideCard/RideCard",
