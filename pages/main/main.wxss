@@ -272,7 +272,7 @@
   padding: 18rpx;
   box-sizing: border-box;
   background-color: #F8F8F8;
-  box-shadow: 0 0 6rpx black;
+  box-shadow: 0 0 10rpx rgb(190, 188, 188);
   
 }
 .code-box{ 
