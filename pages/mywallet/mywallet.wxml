@@ -10,6 +10,13 @@
 			 url="/pages/RideCard/RideCard"
 			/>
 		</view>
+		<van-dialog id="van-dialog" />
+		<div class="box1" bindtap="Gotolive">
+			<text class="Go">去激活</text>
+		</div>
+		<div class="box2" bindtap="Gotolive">
+			<text>去激活</text>
+		</div>
 		<view class="body">
 			<view class="danche">
 				<image src="./images/danche.jpg" />

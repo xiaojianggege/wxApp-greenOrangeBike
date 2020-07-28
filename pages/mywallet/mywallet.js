@@ -1,4 +1,5 @@
 // pages/mywallet/mywallet.js
+import Dialog from '../../pages/dist/dialog/dialog';
 Page({
 
   /**
@@ -6,6 +7,11 @@ Page({
    */
   data: {
 
+  },
+  Gotolive:function(event){
+    wx:wx.navigateTo({
+      url: '../BuyCard/BuyCard',
+    })
   },
 
   /**
@@ -28,6 +34,21 @@ Page({
   onShow: function () {
 
   },
+// Gotolive(){
+//   Dialog.confirm({
+//     title:'退出',
+//     message:'确认要退出',
+//   })
+//     .then(()=>{
+//       //Gotolive
+//       // 跳转页面
+//       wx.reLaunch({
+//         url:'../PriceRule/PriceRule'
+//       })
+//     })
+//     .catch(()=>{
+//     })
+// },
 
   /**
    * 生命周期函数--监听页面隐藏

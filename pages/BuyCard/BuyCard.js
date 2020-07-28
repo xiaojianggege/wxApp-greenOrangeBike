@@ -1,13 +1,12 @@
-// pages/mine/mine.js
-import Dialog from '../../pages/dist/dialog/dialog';
+// pages/BuyCard/BuyCard.js
 Page({
-  
+
   /**
    * 页面的初始数据
    */
   data: {
-    
-    },
+
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -29,22 +28,7 @@ Page({
   onShow: function () {
 
   },
-logout(){
-  Dialog.confirm({
-    title: '退出提醒',
-    message: '确认要退出登录吗？',
-  })
-    .then(() => {
-      // logout
-      // 跳转页面
-      wx.reLaunch({
-        url: '../lookingForCar/lookingForCar'
-      })
-    })
-    .catch(() => {
-      // on cancel
-    })
-},
+
   /**
    * 生命周期函数--监听页面隐藏
    */

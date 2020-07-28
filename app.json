@@ -1,10 +1,11 @@
 {
   "pages":[
     "pages/mine/mine",
-    "pages/Grade/Grade",
     "pages/mywallet/mywallet",
-    "pages/RideCard/RideCard",
+    "pages/BuyCard/BuyCard",
     "pages/lookingForCar/lookingForCar",
+    "pages/Grade/Grade",
+    "pages/RideCard/RideCard",
     "pages/HistoricalJourney/HistoricalJourney",
     "pages/PriceRule/PriceRule",
     "pages/CustomerService/CustomerService",
@@ -20,7 +21,8 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "navigationStyle": "custom"
   },
   "sitemapLocation": "sitemap.json"
 }
