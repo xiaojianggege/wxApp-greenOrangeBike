@@ -1,8 +1,56 @@
 <view class="main">
 	<scroll-view scroll-y="{{true}}" style="width:100%">
+		<view class="arrow">></view>
 		<view class="ThisTimeGrade">
 			<image src="./images/Grade.jpg" />
 		</view>
+		<view class="blank1"></view>
+		<view class="privilege">
+			<text>当前可享权益</text>
+		</view>
+		<view class="coupon">
+			<image src="./images/youhuiquan.jpg" />
+		</view>
+		<view class="update">
+			<view class="box">——</view>
+			<view class="box">
+				<view class="box1">更多权益即将更新</view>
+			</view>
+			<view class="box">——</view>
+		</view>
+		<view class="blank2"></view>
+		<van-cell
+		 title="行为分规则"
+		 is-link
+		 link-type="navigateTo"
+		 url="/pages/RideGradeIntroduce/RideGradeIntroduce"
+		/>
+		<view class="DownGrade">
+			<view class="van-ellipsis">哪些行为会降低行为分</view>
+			<view class="van-multi-ellipsis--l2">1.违反交通规则：危险骑行等</view>
+			<view class="van-multi-ellipsis--l2">2.违反平台规则：骑车至运营区外、虚假保修、行程结束未关锁、共享账号给他人使用等</view>
+			<view class="van-multi-ellipsis--l2">3.破坏单车：车体喷漆、破坏车身、涂改/破坏二维码、破坏车锁、加装私锁等</view>
+			<view class="van-multi-ellipsis--l2">4.私占私藏单车</view>
+			<view class="van-multi-ellipsis--l2">5.不文明用车行为：包括但不限于乱停乱放等</view>
+			<view class="van-multi-ellipsis--l2">6.其他违规行为</view>
+		</view>
+		<view class="UpGrade">
+			<view class="van-ellipsis">如何提高行为分</view>
+			<view class="van-multi-ellipsis--l2">1.遵守交通规则，安全骑车</view>
+			<view class="van-multi-ellipsis--l2">2.文明用车，爱护车辆</view>
+			<view class="van-multi-ellipsis--l2">3.将车辆从运营区外骑至运营区内</view>
+			<view class="van-multi-ellipsis--l2">4.提供真实保修信息</view>
+			<view class="van-multi-ellipsis--l2">5.其他帮助单车平台搭建良好共享生态行为</view>
+		</view>
+		<view class="blank3"></view>
+		<view class="badRecord">
+			<text>我的不良记录</text>
+		</view>
+		<view class="Record">
+			<text>您没有不良记录~谢谢你，让出行更美好</text>
+		</view>
+		<view class="blank4"></view>
+		<van-cell title="申诉记录" is-link />
 	</scroll-view>
 </view>
 

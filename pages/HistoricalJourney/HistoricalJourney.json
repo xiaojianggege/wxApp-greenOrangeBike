@@ -1,7 +1,10 @@
 {
-  "usingComponents": {},
-  "backgroundTextStyle":"light",
+  "usingComponents": {
+    "van-cell": "@vant/weapp/cell/index",
+    "van-cell-group": "@vant/weapp/cell-group/index"
+  },
+  "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#14D1B4",
   "navigationBarTitleText": "历史行程",
-  "navigationBarTextStyle":"white"
+  "navigationBarTextStyle": "white"
 }

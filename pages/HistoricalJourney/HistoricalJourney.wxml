@@ -1,2 +1,31 @@
-<!--pages/HistoricalJourney.wxml-->
-<text>pages/HistoricalJourney.wxml</text>
+<view class="box1">
+	<view class="messages1">
+		<van-cell-group>
+			<van-cell
+			 title="单车"
+			 value="已取消"
+			 border="{{ false }}"
+			/>
+		</van-cell-group>
+		<image class="photo1" src="./image/time.png" />
+		<text class="first-time">2019-07-08 20:20:51</text>
+		<image class="photo2" src="./image/circle1.png" />
+		<text class="address">双沙路站-公交站</text>
+	</view>
+	<view class="messages2">
+		<van-cell
+		 title="单车"
+		 is-link
+		 value="已完成"
+		 link-type="navigateTo"
+		 url="/pages/RideOver/RideOver"
+		/>
+		<image class="photo3" src="./image/time.png" />
+		<text class="second-time">2019-07-08 19:35:55</text>
+		<image class="photo4" src="./image/circle1.png" />
+		<text class="address1">双沙路站-公交站</text>
+		<image class="photo5" src="./image/circle2.png" />
+		<text class="arrive">升仙湖公园</text>
+	</view>
+</view>
+
