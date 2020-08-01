@@ -1,2 +1,17 @@
-<!--pages/PriceRule/PriceRule.wxml-->
-<text>pages/PriceRule/PriceRule.wxml</text>
+<view class="box">
+	<van-cell
+	 title="单车计价规则"
+	 is-link
+	 title-style="font-size:28rpx"
+	 link-type="navigateTo"
+	 url="/pages/PriceRule-danche/PriceRule-danche"
+	/>
+	<van-cell
+	 title="电单车计价规则"
+	 is-link
+	 title-style="font-size:28rpx"
+	 link-type="navigateTo"
+	 url="/pages/PriceRule-diandanche/PriceRule-diandanche"
+	/>
+</view>
+

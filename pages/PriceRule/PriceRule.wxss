@@ -1,1 +1,5 @@
-/* pages/PriceRule/PriceRule.wxss */
+.box{
+    margin: 20rpx;
+    border:1rpx;
+    border-bottom: 1px solid #f3f4f6;
+}

@@ -1,0 +1,56 @@
+<view class="container">
+	<view class="useCar">
+		<view class="line">——————</view>
+		<view class="line">
+			<view class="title">实时用车</view>
+		</view>
+		<view class="line">——————</view>
+	</view>
+	<view class="case">
+		<view class="price">起步价</view>
+		<view class="price text-align">1.5元</view>
+	</view>
+	<view class="case">
+		<view class="rule">包含时长</view>
+		<view class="rule text-align">30分钟及以内</view>
+	</view>
+	<view class="case">
+		<view class="explain">超出部分，按照计价规则收取</view>
+	</view>
+	<view class="case">
+		<view class="explain">(含租赁费、服务费)</view>
+	</view>
+	<view class="blank">—————————————————————</view>
+	<view class="case">
+		<view class="price">时长费</view>
+		<view class="price text-align">1.50元/30分钟</view>
+	</view>
+	<view class="case">
+		<view class="rule">不满30分钟按30分钟收取费用</view>
+	</view>
+	<view class="case">
+		<view class="explain">(含租赁费、服务费)</view>
+	</view>
+	<view class="blank">—————————————————————</view>
+	<view class="case">
+		<view class="price">调度管理费(营区外)</view>
+		<view class="price text-align">5.00元</view>
+	</view>
+	<view class="case">
+		<view class="explain">车辆停至运营区外 (非禁停区) 需缴纳的费用</view>
+	</view>
+	<view class="blank">—————————————————————</view>
+	<view class="case">
+		<view class="price">调度管理费(禁停区)</view>
+		<view class="price text-align">5.00元</view>
+	</view>
+	<view class="case">
+		<view class="explain">车辆停至禁停区需缴纳的费用</view>
+	</view>
+	<view class="blank">—————————————————————</view>
+	<view class="BuyCard">
+		<text>购买单车骑行卡</text>
+	</view>
+
+</view>
+

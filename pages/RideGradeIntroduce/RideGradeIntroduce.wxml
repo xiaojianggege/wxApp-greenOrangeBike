@@ -1,2 +1,51 @@
-<!--pages/RideGradeIntroduce/RideGradeIntroduce.wxml-->
-<text>pages/RideGradeIntroduce/RideGradeIntroduce.wxml</text>
+<view>
+	<view class="head">
+		<view class="title1">
+			<text>滴滴行为分介绍</text>
+		</view>
+		<view class="introduce">
+			<text>
+                滴滴行为分借助大数据模型和AI算法评估您在滴滴单车平台的行为表现(目前弟弟行为分仅适用于滴滴单车平台)。长期良好的出行行为有助于您的分数增长，
+                分数高则获取的出行权益大。频繁的违约和不文明行为会导致分数降低，影响出行体验。点滴维护滴滴行为分，享受行为权益，共建安全、文明、绿色出行生态。
+                新用户初始分为260，滴滴行为分将根据您的用车行为，每月更新一次，涉及行为包含用车习惯、消费偏好等。
+            </text>
+		</view>
+	</view>
+	<view class="body">
+		<view class="title2">
+			<text>哪些行为会降低行为分</text>
+		</view>
+		<view class="detail">
+			<text>1.违反交通规则：危险骑行等</text>
+			<image src="./images/1.jpg" />
+			<text>2.违反平台规则：骑车至运营区外、虚假保修、行程结束未关锁、共享账号给他人使用等</text>
+			<image src="./images/2.jpg" />
+			<text>3.破坏单车：车体喷漆、破坏车身、涂改/破坏二维码、破坏车锁、加装私锁等</text>
+			<image src="./images/3.jpg" />
+			<text>4.私占私藏单车</text>
+			<image src="./images/4.jpg" />
+			<text>5.不文明用车行为：包括但不限于乱停乱放等</text>
+			<image src="./images/5.jpg" />
+			<text>6.其他违规行为</text>
+		</view>
+	</view>
+	<view class="foot">
+		<view class="title3">
+			<text>如何提高行为分</text>
+		</view>
+		<view class="detail">
+			<text>1.遵守交通规则，安全骑车</text>
+			<image src="./images/6.jpg" />
+			<text>2.文明用车，爱护车辆</text>
+			<image src="./images/7.jpg" />
+			<text>3.将车辆从运营区外骑至运营区内</text>
+			<image src="./images/8.jpg" />
+			<text>4.提供真实保修信息</text>
+			<image src="./images/9.jpg" />
+			<text>5.其他帮助单车平台搭建良好共享生态行为</text>
+		</view>
+
+	</view>
+
+</view>
+
