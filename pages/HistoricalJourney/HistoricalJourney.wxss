@@ -2,7 +2,6 @@
     margin: 30rpx;
     background-color: #F2F4F6;
     height: 100%;
-    width: 100%;
 }
 .messages1{
     width: 100%;

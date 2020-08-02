@@ -47,8 +47,7 @@
 	<view class="case">
 		<view class="explain">车辆停至禁停区需缴纳的费用</view>
 	</view>
-	<view class="blank">—————————————————————</view>
-	<view class="BuyCard">
+	<view class="BuyCard" bindtap="GoToBuyCard">
 		<text>购买单车骑行卡</text>
 	</view>
 

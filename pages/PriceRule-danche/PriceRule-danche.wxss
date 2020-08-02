@@ -53,7 +53,7 @@
     line-height: 80rpx;
 }
 .BuyCard{
-    margin-top: 30rpx;
+    margin-top: 60rpx;
     width: 400rpx;
     height: 70rpx;
     color: #6E6E6E;
