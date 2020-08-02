@@ -1,10 +1,10 @@
 {
   "pages":[
+    "pages/PriceRule-diandanche/PriceRule-diandanche",
     "pages/PriceRule-danche/PriceRule-danche",
     "pages/BuyCard/BuyCard",
     "pages/HistoricalJourney/HistoricalJourney",
     "pages/main/main",
-    "pages/PriceRule-diandanche/PriceRule-diandanche",
     "pages/PriceRule/PriceRule",
     "pages/mine/mine",
     "pages/RideGradeIntroduce/RideGradeIntroduce",

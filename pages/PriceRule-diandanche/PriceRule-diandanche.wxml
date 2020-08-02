@@ -1,2 +1,10 @@
+<view class="main">
+	<view class="img">
+		<image src="./image/qingju.jpg" />
+	</view>
+	<view class="title">
+		<text>青桔电单车普通车型</text>
+	</view>
 
+</view>
 
