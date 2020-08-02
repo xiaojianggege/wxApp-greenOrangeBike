@@ -5,6 +5,51 @@
 	<view class="title">
 		<text>青桔电单车普通车型</text>
 	</view>
-
+	<view class="box">
+		<view class="case">
+			<view class="price">起步价</view>
+			<view class="price text-align">2.0元</view>
+		</view>
+		<view class="case">
+			<view class="rule">包含预约时长、骑行时长及免费时长</view>
+			<view class="rule text-align">15分钟及以内</view>
+		</view>
+		<view class="case">
+			<view class="explain">超出部分，按照时长费收取</view>
+		</view>
+		<view class="case">
+			<view class="explain">(含租赁费、服务费)</view>
+		</view>
+		<view class="blank">—————————————————————</view>
+		<view class="case">
+			<view class="price">时长费</view>
+			<view class="price text-align">1.0元/10分钟</view>
+		</view>
+		<view class="case">
+			<view class="rule">不满10分钟按10分钟收取费用</view>
+		</view>
+		<view class="case">
+			<view class="explain">(含租赁费、服务费)</view>
+		</view>
+		<view class="blank">—————————————————————</view>
+		<view class="case">
+			<view class="price">调度费(非还车点)</view>
+			<view class="price text-align">10.0元</view>
+		</view>
+		<view class="case">
+			<view class="explain">车辆停至运营内非还车点需缴纳的费用</view>
+		</view>
+		<view class="blank">—————————————————————</view>
+		<view class="case">
+			<view class="price">调度费(运营区域外)</view>
+			<view class="price text-align">30.0元</view>
+		</view>
+		<view class="case">
+			<view class="explain">车辆停至运营区外需缴纳的费用</view>
+		</view>
+	</view>
+	<view class="BuyCard" bindtap="GoToBuyCard">
+		<text>购买电单车骑行卡</text>
+	</view>
 </view>
 
