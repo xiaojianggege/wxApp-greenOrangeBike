@@ -1,12 +1,12 @@
 {
   "pages":[
+    "pages/mine/mine",
     "pages/PriceRule-diandanche/PriceRule-diandanche",
     "pages/PriceRule-danche/PriceRule-danche",
     "pages/BuyCard/BuyCard",
     "pages/HistoricalJourney/HistoricalJourney",
     "pages/main/main",
     "pages/PriceRule/PriceRule",
-    "pages/mine/mine",
     "pages/RideGradeIntroduce/RideGradeIntroduce",
     "pages/Grade/Grade",
     "pages/RideOver/RideOver",
@@ -18,10 +18,8 @@
     "pages/RideMoney/RideMoney",
     "pages/ChangeCode/ChangeCode",
     "pages/PaymentSet/PaymentSet"
-
-    
-    
   ],
+  
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
