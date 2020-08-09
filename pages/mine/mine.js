@@ -38,7 +38,7 @@ logout(){
       // logout
       // 跳转页面
       wx.reLaunch({
-        url: '../lookingForCar/lookingForCar'
+        url: '../main/main'
       })
     })
     .catch(() => {
