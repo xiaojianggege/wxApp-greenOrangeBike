@@ -18,6 +18,23 @@
 .RideList{
     margin: 0rpx 20rpx 0 20rpx;
 }
+.box{
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+.icon{
+    margin-top: 12prx;
+    background-color: #fff;
+}
+.van-cell {
+    padding-left: 0px !important;
+}
+.custom-class{
+    flex: 1;
+    display: inline-block;
+}
+
 .health{
     height: 98rpx;
     margin-left: 50rpx;
