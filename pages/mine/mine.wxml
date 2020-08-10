@@ -72,8 +72,6 @@
 				 class="custom-class"
 				 title="骑行里程"
 				 value="本月共骑行0千米"
-				 icon-style="color:red"
-				 icon="location-o"
 				/>
 			</view>
 			<view class="box">
@@ -82,7 +80,6 @@
 				 class="custom-class"
 				 title="碳排放"
 				 value="本月减少0千克碳排放"
-				 icon="award-o"
 				/>
 			</view>
 			<view class="box">
@@ -91,7 +88,6 @@
 				 class="custom-class"
 				 title="骑行时长"
 				 value="本月骑行时长0小时"
-				 icon="underway-o"
 				/>
 			</view>
 			<view class="box">
@@ -100,7 +96,6 @@
 				 class="custom-class"
 				 title="卡路里消耗"
 				 value="本月共消耗0卡路里"
-				 icon="fire-o"
 				/>
 			</view>
 		</view>
@@ -113,7 +108,6 @@
 				 is-link
 				 link-type="navigateTo"
 				 url="/pages/AboutThis/AboutThis"
-				 icon="info-o"
 				/>
 			</view>
 		</view>
